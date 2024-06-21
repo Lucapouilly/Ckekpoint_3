@@ -1,4 +1,4 @@
-# Partie 1 : Gestion des utilisateurs
+## Partie 1 : Gestion des utilisateurs
 
 Q.2.1.1 
 connecter en root je fait : useradd luca
@@ -8,7 +8,7 @@ Q.2.1.2
 je preconnise d'ajouter le nouvel utilisateur dans le goupe sudo
 usermod -aG sudo luca
 
-Partie 2 : Configuration de SSH
+## Partie 2 : Configuration de SSH
 
 Q.2.2.1
 
@@ -19,12 +19,12 @@ Q.2.2.2
 ![](https://github.com/Lucapouilly/Ckekpoint_3/blob/main/Exercice_2/allowusers.png)
 
 Q.2.2.3 
-Generer une cle sur la machine client avec la commande : ssh-keygen -t rsa
+Generer une cle sur la machine client avec la commande : ssh-keygen -t rsa  
 copie de la cle sur le serveur avec la commande : ssh-copy-id
 
 ![](https://github.com/Lucapouilly/Ckekpoint_3/blob/main/Exercice_2/desac%20mdp.png)
 
-Partie 3 : Analyse du stockage
+## Partie 3 : Analyse du stockage
 
 Q.2.3.1
 
@@ -56,11 +56,11 @@ Q.2.3.4
 Q.2.3.5 
  espace libre dans le volume : 1,79 Gib
 
-Partie 4 : Sauvegarde
+## Partie 4 : Sauvegarde
 
 
 
-Partie 5 : Filtrage et analyse réseau
+## Partie 5 : Filtrage et analyse réseau
 
 Q.2.5.1 Quelles sont actuellement les règles appliquées sur Netfilter ?
 
